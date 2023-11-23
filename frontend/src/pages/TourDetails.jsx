@@ -35,13 +35,13 @@ const TourDetails = () => {
 
     const reviewText = reviewsMsgRef.current.value;
 
-    if(!user || user ==undefined || user ==null){
+    if(!user || user ===undefined || user ===null){
       alert('Please sign in');
     }
  
     try{
 
-      if(!user || user ==undefined || user ==null){
+      if(!user || user ===undefined || user ===null){
         alert('Please sign in');
       }
 
