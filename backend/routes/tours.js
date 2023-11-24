@@ -37,12 +37,4 @@ router.get('/search/getFeaturedTours', getFeaturedTour)
 router.get('/search/getTourCount', getTourCount)
 
 
-
-
-
-
-
-
-
-
 export default router;

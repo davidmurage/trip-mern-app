@@ -38,6 +38,11 @@ const connect = async () =>{
 //middleware
 app.use(express.json());
 app.use(cors(corsOptions));
+app.use(cors({
+      origin: ["http://localhost:3000",
+      "https://trip-app-wiiu.onrender.com/"
+ ]
+}))
 app.use(cookieParser());
 app.use('/api/v1/auth', authRoute);
 app.use('/api/v1/tours', tourRoute);
