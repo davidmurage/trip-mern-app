@@ -42,7 +42,7 @@ app.use(cors({
       origin: ["http://localhost:3000",
       "https://trip-mern-app.onrender.com/"
  ]
-}))
+}));
 app.use(cookieParser());
 app.use('/api/v1/auth', authRoute);
 app.use('/api/v1/tours', tourRoute);
