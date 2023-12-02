@@ -39,7 +39,7 @@ const connect = async () =>{
 app.use(express.json());
 app.use(cors(corsOptions));
 app.use(cors({
-      origin: ["http://localhost:3000",
+      origin: ["http://localhost:4000",
       "https://trip-mern-app.onrender.com/"
  ]
 }));
