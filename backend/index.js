@@ -40,7 +40,7 @@ app.use(express.json());
 app.use(cors(corsOptions));
 app.use(cors({
       origin: ["http://localhost:3000",
-      "https://trip-mern-app.onrender.com/"
+      "https://mern-trip-app-frontend.vercel.app/"
  ]
 }));
 app.use(cookieParser());
